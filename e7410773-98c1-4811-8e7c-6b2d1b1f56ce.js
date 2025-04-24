@@ -3,6 +3,7 @@ class FlashVariable {
         return {
             id: 'flashvariable',
             name: 'Flash Variable',
+            color1: '#FFD700',
             blocks: [
                 {
                     opcode: 'flashVar',
