@@ -1,8 +1,8 @@
 class FlashVariable {
     getInfo() {
         return {
-            id: 'flashvariable',
-            name: 'Flash Variable',
+            id: 'flowerr4sr0',
+            name: 'Flower_r4sr0',
             color1: '#FFD700',
             blocks: [
                 {
