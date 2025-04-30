@@ -44,7 +44,8 @@ class FlashVariable {
     }
 
     getFPS() {
-        return Math.round(Scratch.vm.runtime.frameRate);
+        return Scratch.vm.runtime.frameLoop.framerate;
+    }
     }
 
     sayhello() {
