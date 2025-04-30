@@ -25,11 +25,6 @@ class FlashVariable {
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'FPS'
                 },
-                {
-                    opcode: 'sayhello',
-                    blockType: Scratch.BlockType.COMMAND,
-                    text: 'Say Hello'
-                {
             ]
         };
     }
@@ -46,10 +41,6 @@ class FlashVariable {
     getFPS() {
         return Scratch.vm.runtime.frameLoop.framerate;
     }
-    }
-
-    sayhello() {
-        alert('Hello')
     }
 }
 
