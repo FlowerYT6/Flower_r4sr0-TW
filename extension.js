@@ -1,4 +1,4 @@
-class FlashVariable {
+class Flower_r4sr0 {
     getInfo() {
         return {
             id: 'flowerr4sr0',
@@ -43,4 +43,4 @@ class FlashVariable {
     }
 }
 
-Scratch.extensions.register(new FlashVariable());
+Scratch.extensions.register(new Flower_r4sr0());
